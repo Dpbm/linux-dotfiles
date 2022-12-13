@@ -5,3 +5,4 @@ cp $HOME/.vars.sh ..
 cp $HOME/.bashrc ..
 cp $HOME/.zprofile ..
 cp $HOME/.bash_profile ..
+cp $HOME/.profile ..
