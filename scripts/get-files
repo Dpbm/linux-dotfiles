@@ -1,3 +1,5 @@
 #!/bin/bash
 
 cp $HOME/.zshrc ..
+cp $HOME/.vars.sh ..
+cp $HOME/.bashrc ..
