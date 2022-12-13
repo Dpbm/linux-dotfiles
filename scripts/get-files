@@ -3,3 +3,4 @@
 cp $HOME/.zshrc ..
 cp $HOME/.vars.sh ..
 cp $HOME/.bashrc ..
+cp $HOME/.zprofile ..
