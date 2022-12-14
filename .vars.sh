@@ -1,3 +1,4 @@
+export PNPM_HOME=$HOME/.local/share/pnpm
 
 export PATH=$HOME/.asdf/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
@@ -14,5 +15,3 @@ export PATH=/usr/bin/site_perl:$PATH
 export PATH=/usr/bin/vendor_perl:$PATH
 export PATH=/usr/bin/core_perl:$PATH
 
-export PNPM_HOME=$HOME/.local/share/pnpm
-export ZSH=$HOME/.oh-my-zsh
