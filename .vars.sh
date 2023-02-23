@@ -10,6 +10,7 @@ export PATH=/var/lib/snapd/snap/bin:$PATH
 export PATH=$PNPM_HOME:$PATH
 export PATH=$HOME/dotnet-version-manager:$PATH
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+export PATH=$PATH:$HOME/anaconda3/bin:$PATH
 
 export PATH=/var/lib/var/lib/snapd/snap/bin:$PATH
 export PATH=/usr/local/sbin:$PATH

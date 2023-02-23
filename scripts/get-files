@@ -7,3 +7,5 @@ cp $HOME/.zprofile ..
 cp $HOME/.bash_profile ..
 cp $HOME/.profile ..
 cp $HOME/.xinitrc ..
+cp $HOME/.config/lvim/config.lua ..
+cp $HOME/.tmux.conf ..
