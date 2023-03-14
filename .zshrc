@@ -7,6 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME=""
 
 source $HOME/.vars.sh
+source $HOME/.aliases.sh
 source $HOME/.asdf/plugins/java/set-java-home.zsh
 source $HOME/.asdf/asdf.sh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
@@ -20,4 +21,3 @@ autoload -Uz compinit && compinit
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-alias ls="exa --icons"
