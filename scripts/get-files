@@ -10,3 +10,4 @@ cp $HOME/.xinitrc ..
 cp $HOME/.config/lvim/config.lua ..
 cp $HOME/.tmux.conf ..
 cp $HOME/.aliases.sh ..
+cp -r $HOME/.config/kitty/ ..
