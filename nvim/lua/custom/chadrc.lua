@@ -1,4 +1,4 @@
 ---@type ChadrcConfig 
  local M = {}
- M.ui = {theme = 'onedark'}
+ M.ui = {theme = 'chadracula'}
  return M
