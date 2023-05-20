@@ -12,6 +12,7 @@
 
 set $mod Mod4
 
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango:FiraCode 10
@@ -198,7 +199,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 #keyboard layouts
-exec_always "setxkbmap -model i836 -layout us,br -variant ,, -option grp:alt_shift_toggle"
+exec_always "setxkbmap -model i836 -layout us,br -variant ,abnt2 -option grp:alt_shift_toggle"
 
 
 #browser
