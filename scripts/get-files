@@ -14,3 +14,4 @@ cp -r $HOME/.config/kitty/ ..
 cp -r $HOME/.config/tilix/ ..
 cp -r $HOME/.config/nvim/ ..
 cp $HOME/.config/i3/config ..
+cp $HOME/.p10k.zsh ..
