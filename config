@@ -86,6 +86,9 @@ bindsym $mod+d focus right
 #bindsym $mod+Up focus up
 #bindsym $mod+Right focus right
 
+#kolourpaint
+bindsym $mod+k exec kolourpaint
+
 # move focused window
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
@@ -203,7 +206,7 @@ exec_always "setxkbmap -model i836 -layout us,br -variant ,abnt2 -option grp:alt
 
 
 #browser
-bindsym $mod+b+f exec firefox
+bindsym $mod+f exec firefox
 
 # class                 border  bground text    indicator child_border
 client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
@@ -229,5 +232,8 @@ bar {
     binding_mode       #FF5555 #FF5555 #F8F8F2
   } 
 }
+
+#Printscreen
+bindsym Print exec maim -s ~/Pictures/$(date +%s).png
 
 #bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'monospace-10' -p 'dmenu%'"
