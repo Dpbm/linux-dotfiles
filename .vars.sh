@@ -2,9 +2,12 @@ export PNPM_HOME=$HOME/.local/share/pnpm
 export DOTNET_ROOT=$HOME/.dotnet
 export DOTNET_CLI_TELEMETRY_OPTOUT=0
 
-export XDG_DATA_DIRS=/var/lib/flatpak/exports/share
-export XDG_DATA_DIRS=$HOME/.local/share/flatpak/exports/share:$XDG_DATA_DIRS
+#export XDG_DATA_DIRS=/var/lib/flatpak/exports/share
+#export XDG_DATA_DIRS=$HOME/.local/share/flatpak/exports/share:$XDG_DATA_DIRS
+export XDG_DATA_DIRS="/usr/share:/usr/share/local"
 
+
+export PATH=$HOME/.cargo/bin:$PATH
 export PATH=$HOME/.asdf/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=/home/linuxbrew/.linuxbrew/bin:$PATH
